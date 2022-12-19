@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "./Footer";
 
 const LayaoutComponent = ({ children, title, content }) => {
   return (
@@ -16,6 +17,7 @@ const LayaoutComponent = ({ children, title, content }) => {
         <title>{title}</title>
       </Head>
       <main>{children}</main>
+      <Footer />
     </>
   );
 };
