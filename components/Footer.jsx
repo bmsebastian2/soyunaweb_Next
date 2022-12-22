@@ -4,87 +4,54 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer1">
-        <div className="">
+    <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+      <div className="sm:flex sm:items-center sm:justify-between">
+        <Link
+          href="https://flowbite.com/"
+          className="flex items-center mb-4 sm:mb-0"
+        >
           <Image
-            className=" aniStart  setVisible"
-            loading="lazy"
-            src="/favicon/LogoSoyUnaWeb32X32.ico"
-            alt=""
-            width={25}
-            height={25}
+            src="/favicon/favicon64.png"
+            className="mr-3 h-8"
+            alt="Flowbite Logo"
+            width={40}
+            height={80}
           />
-          <h3 className=" aniStart  setVisible">SoyunaWeb.com</h3>
-        </div>
-        <div className=" aniStart  setVisible">
-          <ul>
-            <li>
-              <Link href="#">Inicio</Link>
-            </li>
-            <li>
-              <a className="dropdown-arrow" href="#">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <Link href="#">Acerca de Nosotros</Link>
-            </li>
-            <li>
-              <Link href="#">Contactanos</Link>
-            </li>
-          </ul>
-        </div>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            SoyunaWeb
+          </span>
+        </Link>
+        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6 ">
+              Acerca de Nosotros
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6">
+              Política de privacidad
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6 ">
+              Licensing
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:underline">
+              Contactos
+            </Link>
+          </li>
+        </ul>
       </div>
-      <div className="footer2">
-        <div className="">
-          <h5 className=" aniStart  setVisible">Mantente en contacto:</h5>
-        </div>
-        <div className="">
-          <div className="footerRedes">
-            <Link
-              href="tel:+598 93 308 288"
-              target="_blank"
-              title="Whatsapp"
-              // onClick="window.open('https://api.whatsapp.com/send?phone=59899521989&text=Hola%20Quiero%20más%20a%20información%20de%20%20para%20crear%20mi%20Web.');"
-              rel="noreferrer"
-            >
-              <div className="bg-whatsapp_icon darkIcon_icon sombra-movil animation2"></div>
-            </Link>
-            <Link
-              href="mailto: yogacumana@hotmail.com"
-              target="_blank"
-              title="LLamar"
-              rel="noreferrer"
-            >
-              <div className="bg-phone_icon darkIcon_icon sombra-movil animation2"></div>
-            </Link>
-            <Link
-              href="tel:+598 93 308 288"
-              className=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className="bg-email_icon darkIcon_icon sombra-movil animation2"
-                title="Envíar correo"
-              ></div>
-            </Link>
-          </div>
-        </div>
-        <div className="">
-          <p>SoyunaWeb ©.Todos los drerechos Reservados.</p>
-        </div>
-        <div>
-          <p className="attribution">
-            Challenge by{" "}
-            <Link href="#" target="_blank">
-              SoyUnaWeb
-            </Link>
-            . Coded by <Link href="#">Sebastian Benitez</Link>.
-          </p>
-        </div>
-      </div>
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        © 2022{" "}
+        <Link href="https://flowbite.com/" className="hover:underline">
+          Flowbite™
+        </Link>
+        . All Rights Reserved.
+      </span>
     </footer>
   );
 };

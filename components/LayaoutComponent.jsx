@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import Footer from "./Footer";
-
 const LayaoutComponent = ({ children, title, content }) => {
   return (
     <>
@@ -14,10 +14,18 @@ const LayaoutComponent = ({ children, title, content }) => {
         <meta name="copyright" content="SoyunaWeb" />
         <meta name="robots" content="index, follow" />
         <link rel="shortcut icon" href="/favicon/LogoSoyUnaWeb32X32.ico" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
+        />
         <title>{title}</title>
       </Head>
+      <header></header>
       <main>{children}</main>
-      <Footer />
+      {
+        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+      }
+      <Footer></Footer>
     </>
   );
 };
