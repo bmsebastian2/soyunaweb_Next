@@ -1,0 +1,158 @@
+.header {
+    height: 100vh;
+    border-left: 13rem solid #0078F0;
+    /* position: relative; */
+    padding-top: 1.5rem;
+
+}
+
+.listMenu {
+    display: flex;
+    gap: 1rem;
+    opacity: 60%;
+
+}
+
+.listMenu li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1.2px #0078F0;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.listMenu li:hover {
+    color: #0078F0;
+    transition: color 0.5s;
+}
+
+.listMenu li:hover:after {
+    transform: scaleX(1);
+}
+
+.listMenu li:after {
+    transform-origin: 100% 50%;
+}
+
+.listMenu li:after {
+    transform-origin: 0% 50%;
+}
+
+
+.sobre {
+    margin-left: -9rem;
+    height: 93vh;
+    width: 92vw;
+    background-color: white;
+    box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56);
+    display: flex;
+
+}
+
+.left {
+    min-width: 5rem;
+    background-color: #0078F0;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56);
+
+}
+
+.right {
+    padding: 2rem;
+    flex: 100%;
+    min-height: 100%;
+    border: 1px solid #0078F0;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+.containerHeroe {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerHeroe h4 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #0078F0;
+}
+
+.containerHeroe h1 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #333945;
+
+}
+
+.containerHeroe button {
+    background-color: #0078F0;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.containerImagen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerFooter {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .header {
+        border-left: 0;
+        /* position: relative; */
+        padding: 0rem;
+
+    }
+
+    .sobre {
+        margin-left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .left {
+        min-height: 1.5rem;
+        border-radius: 0;
+        box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56);
+
+    }
+
+    .containerImagen {
+        flex-direction: column;
+    }
+
+}
