@@ -1,0 +1,49 @@
+.container {
+
+    width: 20rem;
+    border-left: 1px solid gainsboro;
+    display: grid;
+    place-content: center;
+    gap: 0.3rem;
+    padding: 1rem;
+
+
+
+}
+
+.container:hover {
+
+    background-color: #333945;
+
+
+}
+
+.parrafo {
+    font-weight: 500;
+    color: #333945;
+
+}
+
+.container h4 {
+    font-size: 1.8rem;
+    font-weight: 5rem;
+    color: var(--main-bg-blue);
+
+
+}
+
+
+
+
+@media (max-width:768px) {
+    .container {
+
+        min-height: 2rem;
+        border-left: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+
+    }
+
+}

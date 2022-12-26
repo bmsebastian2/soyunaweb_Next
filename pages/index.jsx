@@ -7,7 +7,9 @@ export default function Home() {
       title={"Diseño web | SoyunaWeb"}
     >
       <HeadCustom />
-      <p>adsd</p>
+      <div style={{ minHeight: "100vh", border: "1px solid red" }}>
+        <p>adsd</p>
+      </div>
     </LayaoutComponent>
   );
 }
