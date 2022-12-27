@@ -31,6 +31,7 @@
 .listMenu li:hover {
     color: #333945;
     transition: color 0.5s;
+    opacity: 100%;
 }
 
 .listMenu li:hover:after {
@@ -133,11 +134,13 @@
 
 .containerFooter {
     display: flex;
+
 }
 
 .containerFooter img {
     max-height: 3rem;
     max-width: 3rem;
+    margin: 1rem 1rem 1rem 10rem;
 }
 
 
@@ -209,5 +212,21 @@
     }
 
 
+
+}
+
+@media (min-width: 1399.98px) {
+
+    .header {
+        height: 100vh;
+    }
+
+    .sobre {
+        margin-left: -9rem;
+        height: 97vh;
+        width: 93vw;
+
+
+    }
 
 }

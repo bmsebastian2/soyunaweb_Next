@@ -39,7 +39,7 @@ const HeaderCustom = () => {
               </div>
             </div>
             <div className={null}>
-              <Image src={"/Group.png"} width={750} height={750} />
+              <Image src={"/GroupLogo.png"} width={950} height={950} />
             </div>
           </div>
 
@@ -53,17 +53,17 @@ const HeaderCustom = () => {
             <div className="">
               <Card
                 titulo="App Web"
-                parrafo="Permiten manejar información al instante y en tiempo real."
+                parrafo="Nuevas oportunidades de potenciar nuestro negocio por medio de las aplicaciones móviles."
               />
             </div>
             <div className="">
               <Card
                 titulo="Marketing Digital"
-                parrafo="Planificamos, diseñamos y gestionamos la comunicación de tu negocio."
+                parrafo="Menos gastos y más resultados. Todas las acciones digitales son más económicas que las existentes."
               />
             </div>
             <div className="">
-              <Image src={"/Logo_M.png"} width={185} height={185} />
+              <Image src={"/ball.svg"} width={185} height={185} />
             </div>
           </div>
         </div>
