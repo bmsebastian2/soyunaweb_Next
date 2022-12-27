@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --main-bg-color: pink;
+    --main-bg-blue: #0078F0;
+
+}
+
+@font-face {
+
+    font-family: 'Roboto';
+    src: url('../public/Roboto-Bold-subset.woff2');
+}
+
+@font-face {
+
+    font-family: 'RobotoRegular';
+    src: url('../public/Roboto-Regular-subset.woff2');
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../public/Roboto-Thin-subset.woff2');
+
+}
+
+@layer base {
+    h1 {
+        font-family: Roboto !important;
+    }
+
+    button {
+        font-family: RobotoThin;
+        background-color: #0078F0;
+    }
+
+
+
+}

@@ -13,6 +13,7 @@ const LayaoutComponent = ({ children, title, content }) => {
         <meta name="author" content="Sebastian Benitez/" />
         <meta name="copyright" content="SoyunaWeb" />
         <meta name="robots" content="index, follow" />
+
         <link rel="shortcut icon" href="/favicon/LogoSoyUnaWeb32X32.ico" />
         <link
           rel="stylesheet"
@@ -20,7 +21,7 @@ const LayaoutComponent = ({ children, title, content }) => {
         />
         <title>{title}</title>
       </Head>
-      <header></header>
+
       <main>{children}</main>
       {
         <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
