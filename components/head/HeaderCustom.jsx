@@ -44,22 +44,25 @@ const HeaderCustom = () => {
           </div>
 
           <div className={style.containerFooter}>
-            <div className="">
+            <div>
               <Card
                 titulo="Diseño Web"
                 parrafo="Hoy en día todo tipo de negocio, empresa   y/o emprendimiento debe tener presencia digital."
+                direccion="/Marketing.svg"
               />
             </div>
-            <div className="">
+            <div>
               <Card
                 titulo="App Web"
                 parrafo="Nuevas oportunidades de potenciar nuestro negocio por medio de las aplicaciones móviles."
+                direccion="/Www_Animed.svg"
               />
             </div>
-            <div className="">
+            <div>
               <Card
                 titulo="Marketing Digital"
                 parrafo="Menos gastos y más resultados. Todas las acciones digitales son más económicas que las existentes."
+                direccion="/Www_Animed.svg"
               />
             </div>
             <div className="">

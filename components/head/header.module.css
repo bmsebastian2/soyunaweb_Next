@@ -8,6 +8,7 @@
     display: flex;
     justify-content: right;
     margin-top: 1.3rem;
+    /* border: 3px solid peru; */
 
 }
 
@@ -53,6 +54,7 @@
     background-color: white;
     box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56);
     display: flex;
+    /* border: 3px solid violet; */
 
 }
 
@@ -68,10 +70,11 @@
 
 .right {
 
-    flex: 100%;
+
     display: grid;
     place-content: start center;
     padding: 0 3rem 0 3rem;
+    /* border: 2px solid red; */
 }
 
 
@@ -134,13 +137,15 @@
 
 .containerFooter {
     display: flex;
+    /* border: 3px solid blue; */
 
 }
 
 .containerFooter img {
     max-height: 3rem;
     max-width: 3rem;
-    margin: 1rem 1rem 1rem 10rem;
+    margin: 1rem 1rem 1rem 1rem;
+
 }
 
 
@@ -208,6 +213,7 @@
 
     .containerFooter {
         flex-direction: column;
+
 
     }
 
