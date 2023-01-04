@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import style from "./header.module.css";
 import Card from "../card/Card";
+import Menu from "../navBAR/Menu";
 
 const HeaderCustom = () => {
   return (
@@ -9,14 +10,7 @@ const HeaderCustom = () => {
       <div className={style.sobre}>
         <div className={style.left}></div>
         <div className={style.right}>
-          <div className={style.menu}>
-            <ul className={style.listMenu}>
-              <li>Inicio</li>
-              <li>Acerca de Nosotros</li>
-              <li>Servicios</li>
-              <li>Galleria</li>
-            </ul>
-          </div>
+          <Menu />
 
           <div className={style.containerImagen}>
             <div className={style.containerHeroe}>

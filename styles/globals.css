@@ -26,14 +26,39 @@
 
 }
 
+@font-face {
+    font-family: 'KodchasanLight';
+    src: url('../public/Kodchasan-Light.woff2');
+
+}
+
+@font-face {
+    font-family: 'KodchasanMedium';
+    src: url('../public/Kodchasan-Medium.woff2');
+
+}
+
+
 @layer base {
     h1 {
         font-family: Roboto !important;
+        ;
     }
 
     button {
         font-family: RobotoThin;
         background-color: #0078F0;
+    }
+
+    h4 {
+        font-family: KodchasanMedium, sans-serif;
+
+    }
+
+    li {
+        font-family: KodchasanLight, sans-serif;
+
+
     }
 
 

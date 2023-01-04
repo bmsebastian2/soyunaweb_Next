@@ -4,48 +4,6 @@
     padding-top: 1rem;
 }
 
-.menu {
-    display: flex;
-    justify-content: right;
-    margin-top: 1.3rem;
-    /* border: 3px solid peru; */
-
-}
-
-.listMenu {
-    display: flex;
-    font-size: 1.1rem;
-    gap: 3.2rem;
-    color: #0078F0;
-    font-weight: 400;
-    opacity: 70%;
-}
-
-.listMenu li:after {
-    display: block;
-    content: '';
-    border-bottom: solid 2px #0078F0;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-}
-
-.listMenu li:hover {
-    color: #333945;
-    transition: color 0.5s;
-    opacity: 100%;
-}
-
-.listMenu li:hover:after {
-    transform: scaleX(1);
-}
-
-.listMenu li:after {
-    transform-origin: 100% 50%;
-}
-
-.listMenu li:after {
-    transform-origin: 0% 50%;
-}
 
 .sobre {
     margin-left: -9rem;
@@ -169,9 +127,7 @@
         box-shadow: none;
     }
 
-    .menu {
-        display: none;
-    }
+
 
     .left {
         min-height: 1.5rem;
