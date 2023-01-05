@@ -6,7 +6,7 @@ const Card = ({ titulo, parrafo, direccion }) => {
   return (
     <div className={style.container}>
       <Link href="#">
-        <p className={style.parrafo}>Paso 1</p>
+        <p className={style.parrafo}></p>
         <Image src={direccion} width={65} height={65} />
         <h4>{titulo}</h4>
         <p>{parrafo}</p>

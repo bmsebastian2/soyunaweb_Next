@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --main-bg-color: pink;
+  
     --main-bg-blue: #0078F0;
 
 }
@@ -59,6 +59,17 @@
         font-family: KodchasanLight, sans-serif;
 
 
+    }
+
+    p {
+        font-family: KodchasanMedium, sans-serif;
+
+    }
+
+    span {
+        font-family: KodchasanMedium, sans-serif;
+        font-weight: bold;
+        color: #0078F0;
     }
 
 

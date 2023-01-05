@@ -1,0 +1,65 @@
+.container {
+    height: 80vh;
+    overflow: hidden;
+    margin-top: -2.2rem;
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    background-image: url('../../public/images/myBlur3.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem 15rem;
+    position: relative;
+}
+
+.imagen {
+    position: absolute;
+    opacity: 10%;
+    left: 55vw;
+    top: -10vh;
+    transform: rotate(45deg);
+
+}
+
+.container p {
+    font-size: 2rem;
+
+
+}
+
+.container p:first-letter {
+    font-size: 2.5rem;
+}
+
+@media (max-width:908px) {
+    .container {
+        height: 40vh;
+        margin-top: 0rem;
+        align-items: flex-end;
+        padding: 4rem;
+    }
+
+    .container p:first-letter {
+        font-size: 1.6rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+.box {
+    position: relative;
+    background: white;
+    border-radius: 2rem;
+    padding: 1.2rem;
+    /* Use  your own styles here */
+    margin: 45px;
+    text-align: center;
+
+    border-bottom: 1px solid rgba(85, 33, 87, 0.308);
+
+
+}

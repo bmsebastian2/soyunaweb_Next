@@ -1,5 +1,7 @@
 import LayaoutComponent from "../components/LayaoutComponent";
 import HeadCustom from "../components/head/HeaderCustom";
+import DiviGradiente from "../components/divisionGradiente/DivisionGradiente";
+import DiviNegocio from "../components/divisionNegocio/DivisionNegocio";
 export default function Home() {
   return (
     <LayaoutComponent
@@ -7,9 +9,8 @@ export default function Home() {
       title={"Diseño web | SoyunaWeb"}
     >
       <HeadCustom />
-      <div style={{ minHeight: "100vh", border: "1px solid red" }}>
-        <p>adsd</p>
-      </div>
+      <DiviGradiente />
+      <DiviNegocio />
     </LayaoutComponent>
   );
 }

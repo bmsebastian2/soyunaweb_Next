@@ -1,6 +1,20 @@
 .header {
     height: 130vh;
-    border-left: 13rem solid #0078F0;
+    border-left: 13rem solid transparent;
+    border-image: linear-gradient(180deg,
+            hsl(210deg 100% 47%) 0%,
+            hsl(212deg 91% 56%) 0%,
+            hsl(212deg 93% 61%) 2%,
+            hsl(212deg 95% 66%) 5%,
+            hsl(211deg 98% 71%) 10%,
+            hsl(210deg 100% 76%) 17%,
+            hsl(212deg 100% 81%) 25%,
+            hsl(213deg 100% 87%) 34%,
+            hsl(214deg 100% 91%) 46%,
+            hsl(215deg 100% 96%) 61%,
+            hsl(0deg 0% 100%) 90%);
+
+    border-image-slice: 1;
     padding-top: 1rem;
 }
 
@@ -10,10 +24,8 @@
     height: 120vh;
     width: 93vw;
     background-color: white;
-    box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56);
+    /* box-shadow: -1px 3px 23px -3px rgba(0, 0, 0, 0.56); */
     display: flex;
-    /* border: 3px solid violet; */
-
 }
 
 .left {
@@ -74,6 +86,8 @@
     font-size: 1.2rem;
     font-weight: bold;
     transition: .3s ease-in-out;
+    -webkit-box-shadow: 3px 21px 19px -12px rgba(0, 120, 240, 0.36);
+    box-shadow: 3px 21px 19px -12px rgba(0, 120, 240, 0.36);
 }
 
 
@@ -114,7 +128,7 @@
     .header {
         border-left: 0;
         padding: 0rem;
-        height: 220vh;
+        height: 180vh;
 
 
     }
