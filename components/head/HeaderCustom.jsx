@@ -23,13 +23,14 @@ const HeaderCustom = () => {
                 />
               </div>
               <div>
-                <div className="">
-                  <h4>Tenemos soluciones en</h4>{" "}
+                <div>
+                  <h4>Nosotros creamos</h4>
                 </div>
-                <div className="">
+                <div>
                   <h1>
                     Sitios <br /> Web
                   </h1>
+                  <h3>🏳con diseño</h3>
                 </div>
               </div>
 
@@ -72,7 +73,7 @@ const HeaderCustom = () => {
                 alt="Logo Logo marketing"
               />
             </div>
-            <div className="">
+            <div className={style.containerAnimationPuntos}>
               <Image
                 src={"/ball.svg"}
                 width={185}

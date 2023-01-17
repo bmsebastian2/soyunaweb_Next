@@ -28,6 +28,13 @@ const DivisionNegocio = () => {
           height={300}
           alt="Fondo"
         />
+        <Image
+          className={style.imagen4}
+          src={"/images/myBlur3.jpg"}
+          width={150}
+          height={150}
+          alt="Fondo"
+        />
       </div>
       <div className={style.containerImagen}>
         <Image

@@ -77,6 +77,13 @@
     color: #0078F0;
 }
 
+.containerHeroe h3 {
+
+    text-align: right;
+    transform: rotate(-2deg);
+}
+
+
 
 
 .containerHeroe button {
@@ -118,9 +125,10 @@
 
 }
 
-
-
-
+.containerAnimationPuntos {
+    display: flex;
+    align-items: center;
+}
 
 @media (max-width:908px) {
     .header {
@@ -184,6 +192,11 @@
 
 
     }
+
+    .containerAnimationPuntos {
+        justify-content: center;
+    }
+
 
 
 
