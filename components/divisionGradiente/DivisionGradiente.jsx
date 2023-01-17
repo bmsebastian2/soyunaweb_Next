@@ -14,6 +14,7 @@ const DivisionGradiente = () => {
             src={"/New-Product4.png"}
             width={220}
             height={220}
+            alt="Sitios web"
           />
         </p>
       </div>

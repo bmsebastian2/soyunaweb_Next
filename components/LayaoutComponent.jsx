@@ -15,17 +15,12 @@ const LayaoutComponent = ({ children, title, content }) => {
         <meta name="robots" content="index, follow" />
 
         <link rel="shortcut icon" href="/favicon/LogoSoyUnaWeb32X32.ico" />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
-        />
+
         <title>{title}</title>
       </Head>
 
       <main>{children}</main>
-      {
-        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
-      }
+
       <Footer></Footer>
     </>
   );

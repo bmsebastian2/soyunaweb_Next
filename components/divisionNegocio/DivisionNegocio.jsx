@@ -17,17 +17,27 @@ const DivisionNegocio = () => {
         <Image
           className={style.imagen}
           src={"/images/myBlur3.jpg"}
-          width={400}
-          height={400}
+          width={150}
+          height={150}
+          alt="Fondo"
         />
         <Image
           className={style.imagen2}
           src={"/images/myBlur3.jpg"}
-          width={600}
-          height={600}
+          width={300}
+          height={300}
+          alt="Fondo"
         />
       </div>
-      <div className={style.imagen}></div>
+      <div className={style.containerImagen}>
+        <Image
+          className={style.imagen3}
+          src={"/web.png"}
+          width={900}
+          height={900}
+          alt="Fondo"
+        />
+      </div>
     </div>
   );
 };
