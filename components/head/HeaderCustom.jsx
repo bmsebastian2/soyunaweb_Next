@@ -44,6 +44,7 @@ const HeaderCustom = () => {
                 width={950}
                 height={950}
                 alt="Grupo Diseño web "
+                priority
               />
             </div>
           </div>
