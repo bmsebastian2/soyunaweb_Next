@@ -3,7 +3,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    /* border: 1px solid red; */
+}
+
+.container img {
+    height: auto;
+    width: auto;
+
 }
 
 .texto {
@@ -11,7 +16,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 
 }
 
@@ -28,20 +32,25 @@
     left: 30rem;
 
 
+
 }
 
 .imagen2 {
     position: absolute;
     top: 2rem;
-    left: 40rem;
+    left: 50rem;
     opacity: 50%;
     z-index: -1;
+    max-width: 8rem;
+
+
 
 }
 
 .imagen3 {
     margin-left: -8rem;
     opacity: 80%;
+
 
 }
 
@@ -51,6 +60,7 @@
     left: 40rem;
     opacity: 50%;
     z-index: -1;
+    max-width: 8rem;
 
 }
 
@@ -132,8 +142,8 @@
 
 
     .imagen3 {
-        width: 8rem;
         margin-left: 0rem;
+        max-width: 12rem;
 
 
     }

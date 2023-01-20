@@ -11,40 +11,40 @@
 @font-face {
     font-display: swap;
     font-family: 'Roboto';
-    src: url('../public/Roboto-Bold-subset.woff2');
+    src: url('../public/font/Roboto-Bold-subset.woff2');
 }
 
 @font-face {
     font-display: swap;
     font-family: 'RobotoRegular';
-    src: url('../public/Roboto-Regular-subset.woff2');
+    src: url('../public/font/Roboto-Regular-subset.woff2');
 }
 
 @font-face {
     font-display: swap;
     font-family: 'RobotoThin';
-    src: url('../public/Roboto-Thin-subset.woff2');
+    src: url('../public/font/Roboto-Thin-subset.woff2');
 
 }
 
 @font-face {
     font-display: swap;
     font-family: 'KodchasanLight';
-    src: url('../public/Kodchasan-Light.woff2');
+    src: url('../public/font/Kodchasan-Light.woff2');
 
 }
 
 @font-face {
     font-display: swap;
     font-family: 'KodchasanMedium';
-    src: url('../public/Kodchasan-Medium.woff2');
+    src: url('../public/font/Kodchasan-Medium.woff2');
 
 }
 
 @font-face {
     font-display: swap;
     font-family: 'satisfy';
-    src: url('../public/Satisfy-Regular-subset.woff2');
+    src: url('../public/font/Satisfy-Regular-subset.woff2');
 
 }
 
