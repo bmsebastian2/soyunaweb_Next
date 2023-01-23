@@ -2,7 +2,21 @@
     position: relative;
 
     width: 20rem;
-    border-left: 1px solid gainsboro;
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(0deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(210deg 100% 25%) 21%,
+            hsl(203deg 100% 29%) 30%,
+            hsl(200deg 100% 33%) 39%,
+            hsl(198deg 100% 37%) 46%,
+            hsl(197deg 100% 40%) 54%,
+            hsl(196deg 100% 42%) 61%,
+            hsl(195deg 100% 45%) 69%,
+            hsl(195deg 100% 48%) 79%,
+            hsl(194deg 100% 50%) 100%);
+    border-image-slice: 1;
+    width: 100%;
+
     display: grid;
     place-content: center;
     gap: 0.3rem;
@@ -36,7 +50,7 @@
 
 .container img {
     position: absolute;
-    top: -2rem;
+    top: -1rem;
     right: 1rem;
 
 }
@@ -51,6 +65,19 @@
         border-left: none;
         margin-left: 1rem;
         margin-right: 1rem;
+
+
+    }
+
+    .parrafo {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container h4 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 5rem;
 
 
     }

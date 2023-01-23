@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import style from "./header.module.css";
 import Card from "../card/Card";
+import Menu from "../navBAR/Menu";
 
 const HeaderCustom = () => {
   return (
@@ -9,28 +10,27 @@ const HeaderCustom = () => {
       <div className={style.sobre}>
         <div className={style.left}></div>
         <div className={style.right}>
-          <div className={style.menu}>
-            <ul className={style.listMenu}>
-              <li>Inicio</li>
-              <li>Acerca de Nosotros</li>
-              <li>Servicios</li>
-              <li>Galleria</li>
-            </ul>
-          </div>
+          <Menu />
 
           <div className={style.containerImagen}>
             <div className={style.containerHeroe}>
               <div>
-                <Image src={"/Logo_M.png"} width={65} height={65} />
+                <Image
+                  src={"/Logo_M.png"}
+                  width={65}
+                  height={65}
+                  alt="Logo web"
+                />
               </div>
               <div>
-                <div className="">
-                  <h4>Tenemos soluciones en</h4>{" "}
+                <div>
+                  <h4>Nosotros creamos</h4>
                 </div>
-                <div className="">
+                <div>
                   <h1>
                     Sitios <br /> Web
                   </h1>
+                  <h3>🏳con diseño</h3>
                 </div>
               </div>
 
@@ -39,7 +39,13 @@ const HeaderCustom = () => {
               </div>
             </div>
             <div className={null}>
-              <Image src={"/GroupLogo.png"} width={950} height={950} />
+              <Image
+                src={"/GroupLogo.png"}
+                width={950}
+                height={950}
+                alt="Grupo Diseño web "
+                priority
+              />
             </div>
           </div>
 
@@ -49,13 +55,15 @@ const HeaderCustom = () => {
                 titulo="Diseño Web"
                 parrafo="Hoy en día todo tipo de negocio, empresa   y/o emprendimiento debe tener presencia digital."
                 direccion="/Marketing.svg"
+                alt="Logo marketing"
               />
             </div>
             <div>
               <Card
                 titulo="App Web"
                 parrafo="Nuevas oportunidades de potenciar nuestro negocio por medio de las aplicaciones móviles."
-                direccion="/Www_Animed.svg"
+                direccion="/app-development.png"
+                alt="Logo App web"
               />
             </div>
             <div>
@@ -63,10 +71,16 @@ const HeaderCustom = () => {
                 titulo="Marketing Digital"
                 parrafo="Menos gastos y más resultados. Todas las acciones digitales son más económicas que las existentes."
                 direccion="/Www_Animed.svg"
+                alt="Logo Logo marketing"
               />
             </div>
-            <div className="">
-              <Image src={"/ball.svg"} width={185} height={185} />
+            <div className={style.containerAnimationPuntos}>
+              <Image
+                src={"/ball.svg"}
+                width={185}
+                height={185}
+                alt="Animacion"
+              />
             </div>
           </div>
         </div>

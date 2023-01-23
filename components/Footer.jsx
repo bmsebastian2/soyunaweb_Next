@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -10,13 +9,6 @@ const Footer = () => {
           href="https://flowbite.com/"
           className="flex items-center mb-4 sm:mb-0"
         >
-          <Image
-            src="/favicon/favicon64.png"
-            className="mr-3 h-8"
-            alt="Flowbite Logo"
-            width={40}
-            height={80}
-          />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             SoyunaWeb
           </span>

@@ -1,0 +1,50 @@
+.menu {
+    display: flex;
+    justify-content: right;
+    margin: 1.5rem;
+}
+
+.listMenu {
+    display: flex;
+    font-size: 1.1rem;
+    gap: 3rem;
+    color: #0078F0;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.listMenu li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #cee5fc;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.listMenu li:hover {
+    color: #16171b;
+    transition: color 0.5s;
+    opacity: 100%;
+}
+
+.listMenu li:hover:after {
+    transform: scaleX(1);
+}
+
+.listMenu li:after {
+    transform-origin: 100% 50%;
+}
+
+.listMenu li:after {
+    transform-origin: 0% 50%;
+}
+
+
+
+@media (max-width:908px) {
+
+
+    .menu {
+        display: none;
+    }
+}
