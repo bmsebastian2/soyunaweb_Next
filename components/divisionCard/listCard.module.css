@@ -18,6 +18,11 @@
     justify-content: space-around;
 }
 
+.detailProductCard strong {
+    font-size: 1.2rem;
+
+}
+
 .small {
     color: rgb(109, 108, 108);
 }

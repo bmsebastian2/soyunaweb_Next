@@ -70,7 +70,7 @@ const HeaderCustom = () => {
               <Card
                 titulo="Marketing Digital"
                 parrafo="Menos gastos y más resultados. Todas las acciones digitales son más económicas que las existentes."
-                direccion="/Www_Animed.svg"
+                direccion="/www1.svg"
                 alt="Logo Logo marketing"
               />
             </div>

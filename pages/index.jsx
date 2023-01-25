@@ -4,6 +4,7 @@ import DiviGradiente from "../components/divisionGradiente/DivisionGradiente";
 import DiviNegocio from "../components/divisionNegocio/DivisionNegocio";
 import Division24Horas from "../components/division24horas/Division24Horas";
 import ListCard from "../components/divisionCard/ListCard";
+import GestionRedesSociales from "../components/divisionRedesSociales/GestionRedesSociales";
 export default function Home() {
   return (
     <LayaoutComponent
@@ -15,6 +16,7 @@ export default function Home() {
       <DiviNegocio />
       <Division24Horas />
       <ListCard />
+      <GestionRedesSociales />
     </LayaoutComponent>
   );
 }
