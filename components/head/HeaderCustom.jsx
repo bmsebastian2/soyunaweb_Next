@@ -62,7 +62,7 @@ const HeaderCustom = () => {
               <Card
                 titulo="App Web"
                 parrafo="Nuevas oportunidades de potenciar nuestro negocio por medio de las aplicaciones móviles."
-                direccion="/app-development.png"
+                direccion="/Ruleman.svg"
                 alt="Logo App web"
               />
             </div>
