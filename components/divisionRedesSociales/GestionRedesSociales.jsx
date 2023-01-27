@@ -19,12 +19,12 @@ const GestionRedesSociales = () => {
 
           <div className={style.card}>
             <Image
-              src={"/organicas.png"}
-              width={120}
-              height={120}
+              src={"/GroupRedes.png"}
+              width={90}
+              height={90}
               alt="Redes sociales"
             />
-            <h5>Publicaciones orgánicas</h5>
+            <h5>✔Publicaciones orgánicas</h5>
             <p>
               Programa o publica inmediatamente tus posts en Facebook, Instagram
               y Twitter.
@@ -34,12 +34,12 @@ const GestionRedesSociales = () => {
 
           <div className={style.card}>
             <Image
-              src={"/instagram.gif"}
-              width={120}
-              height={120}
+              src={"/Instagram.png"}
+              width={80}
+              height={80}
               alt="Logo instagram"
             />
-            <h5>Anuncios en Instagram </h5>
+            <h5>✔Anuncios en Instagram</h5>
             <p>
               Publicita tu marca para sumar seguidores y dirigirte a los
               visitantes del sitio.
@@ -49,13 +49,13 @@ const GestionRedesSociales = () => {
 
           <div className={style.card}>
             <Image
-              src={"/google.gif"}
-              width={120}
-              height={120}
+              src={"/Group 25.png"}
+              width={80}
+              height={80}
               alt="Logo instagram"
             />
 
-            <h5>Anuncios en Google</h5>
+            <h5>✔Anuncios en Google</h5>
             <p>Dirígete a los visitantes de tu web.</p>
             <a href="http://">Más información</a>
           </div>
@@ -67,7 +67,7 @@ const GestionRedesSociales = () => {
         <p>
           Cuanto más aparezcas en redes sociales, más fácil le resultará a la
           gente conocerte. Te proporcionamos todo lo que necesitas para estar
-          activo en las redes sociales y en cualquier otro lugar.
+          activo en las redes sociales y en cualquier otro lugar.💙
         </p>
       </div>
     </div>
