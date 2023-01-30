@@ -18,7 +18,6 @@ const LayaoutComponent = ({ children, title, content }) => {
 
         <title>{title}</title>
       </Head>
-
       <main>{children}</main>
 
       <Footer></Footer>
