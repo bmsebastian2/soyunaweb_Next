@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import Footer from "./Footer";
+
 const LayaoutComponent = ({ children, title, content }) => {
   return (
     <>
@@ -12,7 +13,7 @@ const LayaoutComponent = ({ children, title, content }) => {
         <meta name="keywords" content="web diseño, página web, sitio web" />
         <meta name="author" content="Sebastian Benitez/" />
         <meta name="copyright" content="SoyunaWeb" />
-        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="index, follow" /> no es necesario incluirla */}
 
         <link rel="shortcut icon" href="/favicon/LogoSoyUnaWeb32X32.ico" />
 

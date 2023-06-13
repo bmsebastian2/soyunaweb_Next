@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
+/* :root {
 
     --main-bg-blue: #0078F0;
 
-}
+} */
 
 @font-face {
     font-display: swap;
@@ -49,48 +48,48 @@
 }
 
 
-@layer base {
-    h1 {
-        font-family: Roboto !important;
-        ;
-    }
 
-    button {
-        font-family: RobotoThin;
-        background-color: #0078F0;
-    }
+h1 {
+    font-family: Roboto !important;
+    ;
+}
 
-    h3 {
-        font-family: satisfy;
-        font-size: 3rem;
-        color: #0078F0;
-    }
+button {
+    font-family: RobotoThin;
+    background-color: #0078F0;
+}
 
-    h4 {
-        font-family: KodchasanMedium, sans-serif;
+h3 {
+    font-family: satisfy;
+    font-size: 3rem;
+    color: #0078F0;
+}
 
-    }
+h4 {
+    font-family: KodchasanMedium, sans-serif;
 
-    li {
-        font-family: KodchasanLight, sans-serif;
+}
 
-
-    }
-
-    p {
-        font-family: KodchasanMedium, sans-serif;
-
-    }
-
-    span {
-        font-family: KodchasanMedium, sans-serif;
-        font-weight: bold;
-        color: #0078F0;
-    }
-
+li {
+    font-family: KodchasanLight, sans-serif;
 
 
 }
+
+p {
+    font-family: KodchasanMedium, sans-serif;
+
+}
+
+span {
+    font-family: KodchasanMedium, sans-serif;
+    font-weight: bold;
+    color: #0078F0;
+}
+
+
+
+
 
 
 
@@ -98,8 +97,6 @@
     width: 300px;
     height: 500px;
     background: linear-gradient(10deg, rgba(241, 241, 241, 1) 28%, rgba(0, 212, 255, 1) 57%, rgba(0, 120, 240, 1) 80%);
-    /* margin: auto; */
-    /* position: relative; */
     overflow: hidden;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0;
@@ -338,4 +335,4 @@
 
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* # sourceMappingURL=styles.css.map */
