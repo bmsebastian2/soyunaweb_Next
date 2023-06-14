@@ -16,21 +16,21 @@ const DivisionNegocio = () => {
         </div>
         <Image
           className={style.imagen}
-          src={"/images/myBlur3.jpg"}
+          src={"/images/myBlur3W1.webp"}
           width={150}
           height={150}
           alt="Fondo"
         />
         <Image
           className={style.imagen2}
-          src={"/images/myBlur3.jpg"}
+          src={"/images/myBlur3W1.webp"}
           width={300}
           height={300}
           alt="Fondo"
         />
         <Image
           className={style.imagen4}
-          src={"/images/myBlur3.jpg"}
+          src={"/images/myBlur3W1.webp"}
           width={150}
           height={150}
           alt="Fondo"
@@ -39,7 +39,7 @@ const DivisionNegocio = () => {
       <div className={style.containerImagen}>
         <Image
           className={style.imagen3}
-          src={"/web.png"}
+          src={"/webW.png"}
           width={900}
           height={900}
           alt="Fondo"

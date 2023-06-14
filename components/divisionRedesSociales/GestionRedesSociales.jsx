@@ -22,7 +22,7 @@ const GestionRedesSociales = () => {
 
           <div className={style.card}>
             <Image
-              src={"/GroupRedes.png"}
+              src={"/organicas.png"}
               width={90}
               height={90}
               alt="Redes sociales"
