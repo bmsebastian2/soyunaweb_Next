@@ -6,9 +6,6 @@
     color: #333945;
 }
 
-
-
-
 .container a {
     text-decoration: underline;
 }
@@ -82,15 +79,16 @@
 
 @media (max-width:908px) {
     .containerEjemplos {
-        border: 1px solid blue;
+
         flex-direction: column;
         padding: 0.5rem;
+        overflow: scroll;
 
     }
 
     .container {
         margin-top: 4rem;
-        height: 200vh;
+        height: 300vh;
         overflow: hidden;
 
 

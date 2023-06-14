@@ -48,10 +48,12 @@
 
 @media (max-width:908px) {
     .container {
-        height: 50vh;
+        height: 30vh;
         margin: 0;
         align-items: flex-center;
         padding: 4rem;
+        overflow: hidden;
+
     }
 
     .box {
