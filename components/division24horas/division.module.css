@@ -9,6 +9,7 @@
     justify-content: center;
     padding: 15rem 15rem;
     position: relative;
+
 }
 
 .container img {
@@ -48,10 +49,11 @@
 
 @media (max-width:908px) {
     .container {
-        height: 50vh;
+        height: 40vh;
         margin: 0;
         align-items: flex-center;
         padding: 4rem;
+
     }
 
     .box {

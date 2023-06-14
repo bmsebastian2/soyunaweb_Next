@@ -44,7 +44,10 @@
 
 }
 
+main {
 
+    overflow: hidden;
+}
 
 h1 {
     font-family: Roboto !important;
