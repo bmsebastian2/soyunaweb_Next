@@ -1,5 +1,5 @@
 .container {
-    height: 150vh;
+    height: 300vh;
     display: flex;
     margin-top: 10rem;
     flex-direction: column;
@@ -70,9 +70,24 @@
 
 }
 
+.containerEjemplos {
+    padding: 1rem 2rem;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
 
 @media (max-width:908px) {
+    .containerEjemplos {
+        border: 1px solid blue;
+        flex-direction: column;
+        padding: 0.5rem;
+
+    }
+
     .container {
         margin-top: 4rem;
         height: 200vh;

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import style from "./gestionRedesSociales.module.css";
 import useScreenSize from "../../hook/useScreenSize";
+import Ejemplos from "../../components/ejemplosWeb/Ejemplos";
+import Ejemplos2 from "../../components/ejemplosWeb/Ejemplos2";
+
 const GestionRedesSociales = () => {
   const { width } = useScreenSize();
 
@@ -62,6 +65,12 @@ const GestionRedesSociales = () => {
         </div>
       </div>
 
+      <div className={style.containerEjemplos}>
+        <Ejemplos2 />
+      </div>
+      <div className={style.containerEjemplos}>
+        <Ejemplos />
+      </div>
       <div className={style.containerFooter}>
         <h4>Mantén la conversación activa en todos tus redes</h4>
         <p>
