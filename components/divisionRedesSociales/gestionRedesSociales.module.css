@@ -1,0 +1,176 @@
+.container {
+    height: 300vh;
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    color: #333945;
+}
+
+
+
+
+.container a {
+    text-decoration: underline;
+}
+
+.container h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22rem 0 22rem;
+
+}
+
+.containerCard {
+
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1rem;
+
+}
+
+.containerCard h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333945;
+}
+
+.card {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    line-height: normal;
+
+}
+
+.card h5 {
+    line-height: 1.7rem;
+}
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 22rem 4rem 22rem;
+
+}
+
+.containerEjemplos {
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+@media (max-width:908px) {
+    .containerEjemplos {
+        border: 1px solid blue;
+        flex-direction: column;
+        padding: 0.5rem;
+
+    }
+
+    .container {
+        margin-top: 4rem;
+        height: 200vh;
+        overflow: hidden;
+
+
+    }
+
+    .containerHeader {
+        padding: 1rem;
+
+    }
+
+    .container h4 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        margin: 1rem;
+
+
+    }
+
+    .cardEspecial {
+        width: 16rem;
+        height: auto;
+        min-height: 20rem;
+        flex: 0 0 auto;
+        margin: 0 0.75rem;
+    }
+
+    .card {
+        width: 16rem;
+        height: auto;
+        min-height: 20rem;
+        flex: 0 0 auto;
+        margin: 0 0.75rem;
+        border: none;
+        outline: none;
+        border-radius: 0.25rem;
+        color: #252a32;
+        background: #fff;
+        box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
+    }
+
+    .containerCard {
+
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+        margin: 2.5rem 0;
+        cursor: default;
+        overflow: scroll hidden;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0px 1.25rem;
+        scrollbar-width: none;
+
+    }
+
+    .containerCard::-webkit-scrollbar {
+        display: none;
+    }
+
+    .containerCard.active {
+        cursor: grab;
+        cursor: -webkit-grab;
+    }
+
+    .containerCard h5 {
+        font-size: 1.2rem;
+        line-height: normal;
+
+    }
+
+
+    .containerFooter {
+        gap: 1.5rem;
+        padding: 0;
+
+    }
+
+
+}

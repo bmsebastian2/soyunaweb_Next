@@ -1,5 +1,6 @@
 import style from "./listCard.module.css";
 import CardProducto from "./CardProduct";
+
 const ListCard = () => {
   return (
     <div className={style.container}>
@@ -19,24 +20,25 @@ const ListCard = () => {
       />
       <div className={style.detailProductCard}>
         <h3>Te garantizamos:</h3>
+
         <hr />
 
         <p>
-          ✔ <strong>Seguridad:</strong> Hosting y Dominio profesional gratis por
-          un año. <span>SSD</span>
+          <span>✔</span> <strong>Seguridad : </strong> Hosting y Dominio
+          profesional gratis por un año. <span>SSD</span>
         </p>
 
         <p>
-          ✔ <strong>Velocidad:</strong> Velocidad garatinzada.{" "}
+          <span>✔</span> <strong>Velocidad :</strong> Velocidad garatinzada.{" "}
           <span>SPEED PAGE</span>
         </p>
         <p>
-          ✔ <strong>Buenas practicas: </strong> Posicionamiento.{" "}
+          <span>✔</span> <strong>Buenas practicas : </strong> Posicionamiento.{" "}
           <span>SEO</span>
         </p>
         <hr />
         <small className={style.small}>
-          ¡Cualquier duda, envíanos una pregunta!
+          <p>¡Cualquier duda, envíanos una pregunta! </p>
         </small>
         <div className={style.containerButton}>
           <button className={style.button}>WhatsApp</button>
