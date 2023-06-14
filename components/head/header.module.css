@@ -78,7 +78,7 @@
 }
 
 .containerHeroe h3 {
-
+    font-size: 3rem;
     text-align: right;
     transform: rotate(-2deg);
 }
