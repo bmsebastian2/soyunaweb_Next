@@ -40,7 +40,7 @@ const HeaderCustom = () => {
             </div>
             <div className={null}>
               <Image
-                src={"/GroupLogo.png"}
+                src={"/GroupLogo.webp"}
                 width={950}
                 height={950}
                 alt="Grupo Diseño web "
