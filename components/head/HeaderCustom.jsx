@@ -24,12 +24,13 @@ const HeaderCustom = () => {
               </div>
               <div>
                 <div>
-                  <h4>Nosotros creamos</h4>
+                  <h4>😎 Nosotros creamos:</h4>
                 </div>
                 <div>
                   <h1>
                     Sitios <br /> Web
                   </h1>
+
                   <h3>🏳con diseño</h3>
                 </div>
               </div>
@@ -40,7 +41,7 @@ const HeaderCustom = () => {
             </div>
             <div className={null}>
               <Image
-                src={"/GroupLogo.webp"}
+                src={"/GroupLogoW.webp"}
                 width={950}
                 height={950}
                 alt="Grupo Diseño web "
