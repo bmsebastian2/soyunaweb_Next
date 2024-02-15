@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
-import Footer from "./Footer";
+import Footer from "./footer/Footer";
 
 const LayaoutComponent = ({ children, title, content }) => {
   return (
