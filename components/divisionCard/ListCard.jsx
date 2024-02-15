@@ -20,14 +20,11 @@ const ListCard = () => {
       />
       <div className={style.detailProductCard}>
         <h3>Te garantizamos:</h3>
-
         <hr />
-
         <p>
           <span>✔</span> <strong>Seguridad : </strong> Hosting y Dominio
           profesional gratis por un año. <span>SSD</span>
         </p>
-
         <p>
           <span>✔</span> <strong>Velocidad :</strong> Velocidad garatinzada.{" "}
           <span>SPEED PAGE</span>
