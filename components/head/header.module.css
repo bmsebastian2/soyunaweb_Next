@@ -53,6 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .containerHeroe img {
@@ -65,7 +66,17 @@
     font-size: 7rem;
     line-height: 85px;
     letter-spacing: -0.02em;
-    color: #333945;
+    color: #011930;
+
+}
+
+.containerHeroe h1::before {
+
+    content: '✔';
+    color: #3a86ff;
+    font-size: 4rem;
+    vertical-align: top;
+
 
 }
 
@@ -84,24 +95,41 @@
 }
 
 
-
-
-.containerHeroe button {
-    padding: 0.8rem 2.2rem 0.8rem 2.2rem;
-    border-radius: 2rem;
+.bottomgreen {
+    min-width: 130px;
+    height: 40px;
     color: #fff;
-    font-size: 1.2rem;
+    padding: 5px 10px;
     font-weight: bold;
-    transition: .3s ease-in-out;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #011830;
+
+
 }
 
+.bottomgreen:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
 
+}
 
-.containerHeroe button:hover {
-    color: rgb(114, 224, 252);
-    transform: scale(1.2);
-    text-shadow: 1px 1px 2px #427388;
+.bottomgreen:hover:after {
+    box-shadow: 0 3px #011830;
+    top: 1px;
 
+}
+
+.bottomgreen:active {
+    box-shadow: 0 0 #011830;
+    background: #011830;
+    top: 5px;
 
 }
 
@@ -115,7 +143,7 @@
 .containerFooter {
     display: flex;
     /* border: 3px solid blue; */
-
+    margin-top: 3rem;
 }
 
 .containerFooter img {
@@ -190,8 +218,7 @@
     }
 
     .containerFooter {
-        flex-direction: column;
-
+        display: none;
 
     }
 

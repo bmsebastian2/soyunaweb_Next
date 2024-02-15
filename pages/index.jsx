@@ -13,10 +13,10 @@ export default function Home() {
       title={"Diseño web | SoyunaWeb"}
     >
       <HeadCustom />
+      <ListCard />
       <DiviGradiente />
       <DiviNegocio />
       <Division24Horas />
-      <ListCard />
       <GestionRedesSociales />
     </LayaoutComponent>
   );

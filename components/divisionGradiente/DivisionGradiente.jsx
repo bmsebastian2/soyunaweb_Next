@@ -6,9 +6,8 @@ const DivisionGradiente = () => {
     <div className={style.container}>
       <div className={style.box}>
         <p>
-          “Casi el <span>90% </span> de nosotros buscamos información de un
-          producto o servicio antes de realizar una compra por{" "}
-          <strong>Internet</strong> ”
+          “<span>90% </span> de nosotros buscamos información de un producto o
+          servicio en <strong>Internet</strong> ”
           <Image
             className={style.imagen}
             src={"/New-Product4W.png"}

@@ -10,18 +10,19 @@ const HeaderCustom = () => {
       <div className={style.sobre}>
         <div className={style.left}></div>
         <div className={style.right}>
-          <Menu />
+          <Menu>
+            <div>
+              <Image
+                src={"/Logo_M.png"}
+                width={60}
+                height={60}
+                alt="Logo web"
+              />
+            </div>
+          </Menu>
 
           <div className={style.containerImagen}>
             <div className={style.containerHeroe}>
-              <div>
-                <Image
-                  src={"/Logo_M.png"}
-                  width={65}
-                  height={65}
-                  alt="Logo web"
-                />
-              </div>
               <div>
                 <div>
                   <h4>😎 Nosotros creamos:</h4>
@@ -36,10 +37,10 @@ const HeaderCustom = () => {
               </div>
 
               <div>
-                <button>Contactanos</button>
+                <button className={style.bottomgreen}>Contactanos</button>
               </div>
             </div>
-            <div className={null}>
+            <div>
               <Image
                 src={"/GroupLogoW.webp"}
                 width={950}

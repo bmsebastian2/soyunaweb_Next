@@ -1,9 +1,10 @@
 import style from "./menu.module.css";
 import Link from "next/link";
 
-const Menu = () => {
+const Menu = ({ children }) => {
   return (
     <div className={style.menu}>
+      <div>{children}</div>
       <ul className={style.listMenu}>
         <li>
           <Link href="/">Inicio</Link>
