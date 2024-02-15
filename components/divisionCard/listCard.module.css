@@ -50,7 +50,8 @@
 
     .container {
         flex-direction: column;
-        height: 120vh;
+        height: 100vh;
+
 
     }
 

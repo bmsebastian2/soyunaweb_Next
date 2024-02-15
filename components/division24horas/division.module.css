@@ -49,7 +49,7 @@
 
 @media (max-width:908px) {
     .container {
-        height: 40vh;
+        height: 60vh;
         margin: 0;
         align-items: flex-center;
         padding: 4rem;
